@@ -146,6 +146,5 @@ cython_debug/
 
 # Data
 bokeh_app/data/raw/*
-bokeh_app/scripts/*
 *.ipynb
 *.zip
