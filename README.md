@@ -18,8 +18,9 @@ Developed with python 3.8, bokeh 2.0
     git clone https://github.com/benrussell80/covid-19-analysis-dashboard
     cd covid-19-analysis-dashboard
     pip install -r requirements.txt
-    # download newest data
+    # download newest data and unzip it to the raw data folder
     kaggle datasets download sudalairajkumar/novel-corona-virus-2019-dataset
+    unzip novel-corona-virus-2019-dataset.zip -d bokeh_app/data/raw/
     # clean the data
     python bokeh_app/scripts/run_all_cleaning_and_analysis_scripts.py 
     bokeh serve bokeh_app/
