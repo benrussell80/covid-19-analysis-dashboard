@@ -24,30 +24,24 @@ Developed with python 3.8, bokeh 2.0
     # clean the data
     python bokeh_app/scripts/run_all_cleaning_and_analysis_scripts.py 
     bokeh serve bokeh_app/
-
+<!--
 ## To Do
 Add instructions to each tab
-
 ### Tab 1 - World Map
 - [ ] Deaths, death rates
 - [ ] Change circles to country-shaped polygons
-
 ### Tab 2 (hidden on site) - United States Map
 - [ ] Speed up sliding; decrease number of counties shown; group by states
 - [ ] Deaths, death rates
 - [ ] Change circles to country-shaped polygons
-
 ### Tab 3 - World Cases Time Series
 - [ ] Filters for continent
-
 ### Tab 4 - United States Time Series
 - [ ] Filters for state
-
 ### Tab 5 - Case Details
 - [ ] Add filters to limit data (e.g. age double sliders, country selector, etc.)
 - [ ] Button for downloading data
 - [ ] Formatters for Boolean data, etc.
-
 ### Tab 6 - Analysis
 - [x] World Fitting to logistic function
 - [x] US Fitting to logistic function (fix script to match world fitting)
@@ -59,3 +53,4 @@ Add instructions to each tab
 - [ ] Symptom tab
 - [ ] Death rates by age, gender, symptoms, country, length of sickness, US region
 - [ ] Average time between exposure and symptom onset
+-->
